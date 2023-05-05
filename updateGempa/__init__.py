@@ -1,6 +1,8 @@
 import bs4
 import requests
 
+description = 'To get the latest earthquake in Indonesia from Bureau website https: www.bmkg.go.id'
+
 def ekstraksi_data():
     """
     Tanggal     : 01 Mei 2023
