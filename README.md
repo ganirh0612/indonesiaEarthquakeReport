@@ -11,9 +11,10 @@ This package will use BeautifulSoup4 and Request, to then produce in the form of
 import updateGempa
 
 if __name__ == '__main__':
-    print('Aplikasi Utama')
-    result = updateGempa.ekstraksi_data()
-    updateGempa.tampilkan_data(result)
+    gempaIndonesia = updateGempa.gempaTerbaru('https://www.bmkg.go.id/')
+    print(f'Aplikasi utama menggunakan package yang memiliki deskripsi {gempaIndonesia.description}')
+    gempaIndonesia.tampilkan_keterangan()
+    gempaIndonesia.run()
 ```
 # Author
 Hasan Gani
