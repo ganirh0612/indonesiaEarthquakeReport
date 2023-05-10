@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="earthquakereport-indonesia",
-    version="0.1.3",
+    version="0.1.4",
     author="Hasan Gani",
     author_email="ganirh0612@gmail.com",
     description="This package will provide the most update of Indonesian bureau of Forecast (BMKG)",
